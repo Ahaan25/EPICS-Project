@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "ITS",
+    "description": "Convert images to text and read them out loud",
+    "version": "0.0.1",
+    "icons": {
+        "16": "/images/icon16.png",
+        "48": "/images/icon48.png",
+        "132": "/images/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/*"],
+            "css": ["main.css"]
+        }
+    ]
+}
